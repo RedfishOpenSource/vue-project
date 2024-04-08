@@ -6,7 +6,7 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
   lintOnSave: false,
-  publicPath: '/vue-project/',
+  publicPath: '/vue-project',
   plugins: [
     vue(),
   ],
